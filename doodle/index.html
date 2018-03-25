@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Paint</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<script src='./jscolor.js'></script>
+	<div id="header">
+		<div id="sizecontainer" class="options">
+			<div id="sizetext">Pen Size</div>
+			<div id="sizechange">
+				<div id="sizecontroller"></div>
+			</div>
+		</div>
+		<div id="menu">
+			<ul>
+			<li><div id="menubutton"><span>Menu</span></div></li><br>
+			<li><div id="erase" class="options">Select Eraser</div></li><br>
+			<li><div id="pencolor" class="options">Select Pen Color</div></li><br>		
+			<li><input class='jscolor' value="#000000"></input></li><br>
+			<li><div id="backgroundcolor" class="options">Select Background <br> Color</div></li><br>
+			<li><input class="jscolor" value="#ffffff" onchange="backgroundchange()"></input></li><br>
+			<li><div id="clear" class="options">Clear Canvas</div></li>
+			</ul>
+		</div>	
+		</div>
+	<canvas id="canvas"></canvas>
+</body>
+<script src="index.js"></script>
+</html>

@@ -1,0 +1,134 @@
+html,body {
+	width:100%;
+	height:100%;
+	margin:0px;
+	overflow: hidden;
+	cursor:url('./pen.png') 15 0, auto;
+	overflow: hidden;
+}
+
+
+
+#header {
+	width:100%;
+	height:40px;
+	background:black;
+	position: fixed;
+}
+
+#header:hover {
+	cursor:initial;
+}
+
+.options {
+	cursor:pointer;
+}
+
+
+#sizecontainer {
+	display:inline-block;
+	color:white;
+	height: 100%;
+	float:left;
+}
+
+#sizetext {
+	display: inline-block;
+	float:left;
+	text-align:center;
+	font-weight:bold;
+	line-height:40px;
+	margin-left:10px;
+}
+
+#sizechange {
+	display: inline-block;
+	width:100px;
+	height:100%;
+	float:left; 
+	background: #EAEAEA;
+	box-shadow:inset 0px 0px 40px 1px black;
+	margin-left:10px;
+}
+
+
+#sizecontroller {
+	display: inline-block;
+	float: left;
+	height:40px;
+	width:10px;
+	background: #31D99C;
+}
+
+#erase {
+	display: inline-block;
+	height:40px;
+	line-height:40px;
+	background:#C7C7C7;
+	color:#153B87;
+}
+
+
+#clear {
+	height:40px;
+	display: inline-block;
+	color:white;
+	line-height:40px;
+	background: #333333;
+	color:#FA4B4B;
+}
+
+#pencolor {
+	display: inline-block;
+	line-height:40px;
+	height:100%;
+	color:white;
+}
+
+#backgroundcolor {
+	color:white; 
+	height: 100%;
+	line-height:40px;
+}
+
+.jscolor {
+	display: inline-block;
+	width:80px;
+	height:36px;
+	padding:0px;
+}
+
+ul {
+	display: inline-block;
+	list-style: none;
+}
+
+li {
+	margin-top: 4px;
+	margin-left: -20px;
+}
+
+#menu {
+	display:inline-block;
+	float:left;
+	width:160px;
+	height:40px;
+	background: #2A2A2A;
+	margin-left:20px;
+	font-weight:bold;
+	overflow:hidden;
+}
+
+#menubutton {
+	width:200px;
+	height:40px;
+	background:yellow;
+	margin-left:-20px;
+	margin-top:-20px;
+	background: #F92E2E;
+	line-height: 40px;
+}
+
+#menubutton span {
+	margin-left:50px;
+}
